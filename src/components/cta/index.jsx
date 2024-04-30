@@ -7,9 +7,9 @@ export default function Cta() {
             <div className="container my-5">
                 <div className="row d-flex py-4 px-2 pe-md-0 align-items-center rounded-3 border shadow">
                     <div className="col-md-4 overflow-hidden">
-                        <img className="rounded-3" src={hero} alt="code 1xbet" width="400px" height="400px" />
+                        <img className="rounded-3" src={hero} alt="code 1xbet" width="auto" height="400px" />
                     </div>
-                    <div className="col-md-7 px-md-5 pt-3 pt-md-0">
+                    <div className="col-md-8 px-md-5 pt-3 pt-md-0">
                         <h2 className="display-6 fw-bold lh-1">Rejoignez-nous pour recevoir les meilleurs coupons</h2>
                         <p className="lead">Intégrez les meilleures groupes de pronostiques et obtenez les meilleurs coupons pour tous vos futurs paris.</p>
                         <div className="d-grid gap-1 d-md-flex justify-content-md-start mb-4 mb-md-3">

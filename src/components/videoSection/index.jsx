@@ -4,7 +4,7 @@ export default function VideoSection({page, video}) {
     return (
         <>
         <div className="container pt-3 px-2 my__card rounded-4 mb-2 mt-5">
-            <div className="row flex-md-row align-items-center g-5 py-4 p-4">
+            <div className="row flex-md-row align-items-center py-4 p-4">
                 <div className="col-md-4 order-first order-md-last">
                     <video className="rounded-4" src={video} alt="" width="100%" height="400px" controls />
                 </div>
