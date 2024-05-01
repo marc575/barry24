@@ -68,7 +68,7 @@ const BottomMenuSection = styled.div`
 `
 
 export default function Melbet () {
-    document.title = `melbet | code promo 5511`
+    document.title = `Melbet | Code Promo 5511`
 
     return (
         <>

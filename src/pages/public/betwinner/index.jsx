@@ -68,7 +68,7 @@ const BottomMenuSection = styled.div`
 `
 
 export default function Betwinner() {
-    document.title = `betwinner | code promo 5511`
+    document.title = `Betwinner | Code Promo 5511`
 
     return (
         <>

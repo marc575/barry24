@@ -8,7 +8,7 @@ export default function VideoSection({page, video}) {
                 <div className="col-md-4 order-first order-md-last">
                     <video className="rounded-4" src={video} alt="" width="100%" height="400px" controls />
                 </div>
-                <div className="col-md-8 px-md-5 p-md-3 order-last order-md-first">
+                <div className="col-md-8 px-md-5 pt-3 pt-md-0 order-last order-md-first">
                     <h2 className="display-6 fw-bold lh-1">Guide en vidéo pour s`inscrire sur {page} avec le CODE PROMO 5511</h2>
                     <p className="lead">Intégrez les meilleures groupes de pronostiques et obtenez les meilleurs coupons pour tous vos futurs paris.</p>
                     <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-md-3">

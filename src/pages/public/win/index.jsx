@@ -68,7 +68,7 @@ const BottomMenuSection = styled.div`
 `
 
 export default function Win() {
-    document.title = `1win | code promo 5511`
+    document.title = `1win | Code Promo 5511`
 
     return (
         <>

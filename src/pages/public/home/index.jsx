@@ -70,7 +70,7 @@ const BottomMenuSection = styled.div`
 `
 
 function Home() {
-  document.title = `1xbet | code promo 5511`
+  document.title = `1xbet | Code Promo 5511`
 
   return (
     <>

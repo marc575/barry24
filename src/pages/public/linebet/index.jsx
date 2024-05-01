@@ -68,7 +68,7 @@ const BottomMenuSection = styled.div`
 `
 
 export default function Linebet() {
-    document.title = `linebet | code promo 5511`
+    document.title = `Linebet | Code Promo 5511`
 
     return (
         <>

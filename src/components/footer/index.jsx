@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <div className="container mb-5">
-                <footer className="d-flex flex-wrap justify-content-center g-5 justify-content-md-between align-items-center py-3 my-4 border-top">
+                <footer className="d-flex flex-wrap justify-content-center justify-content-md-between align-items-center py-2 my-5 border-top">
                     <div className="col-md-8 order-md-first order-last">
                         <span className="mb-3 mb-md-0 fw-bold text-muted">Copyright © {year} CODE PROMO 5511, par <a className="text-warning fw-bold" href="https://www.linkedin.com/in/marc-tatchou-85891a243">Net98</a></span>
                     </div>
