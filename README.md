@@ -1,4 +1,6 @@
-# React + Vite
+# A Propos
+
+![Presentation du projet en ligne](https://github.com/marc575/barry24/blob/main/4.jpg)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
