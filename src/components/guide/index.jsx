@@ -25,7 +25,7 @@ const GuideSection = styled.section`
     padding: 1rem 6rem 1rem 6rem;
 
     @media (max-width: 1080px) {
-        padding: 1rem;
+        padding: 1rem 3rem 1rem 3rem;
     }
 
     @media (max-width: 540px) {
@@ -43,7 +43,7 @@ export default function Guide() {
                         <p className="lead mb-4">👋 Les paris sportifs n`ont jamais été aussi pratiques et faciles. 
                         Il vous suffit de télécharger l`application 1xBet pour être au cœur du grand jeu ! 
                         Pour tous les nouveaux joueurs sur l`application mobile : bonus jusqu`à 65 000 FCFA à l`inscription.  
-                        Utilisez notre <strong>CODE PROMO 5511 </strong> officiel pour recevoir le bonus dès aujourd`hui. 
+                        Utilisez notre <strong>Code Promo 5511 </strong> officiel pour recevoir le bonus dès aujourd`hui. 
                         Suivez le guide d`inscription à 1xbet, qui vous permettra de recevoir tous vos bonus, d`avoir un compte certifié et de profiter des meilleures cotes, quel que soit votre pays de résidence. Je vais vous demander d`être attentif, 10 minutes qui seront très bien investies et rentables à long terme.✊💪</p>
                     </div>
                 </div>

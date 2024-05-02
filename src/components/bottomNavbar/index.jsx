@@ -15,11 +15,11 @@ export default function BottomNavBar() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="BetWinner" icon='✅' href='/betwinner' />
-        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="1Win" icon='✅' href='/1win' />
-        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="1xBet" icon='⭐' href='/' />
-        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="LineBet" icon='✅' href='/linebet' />
-        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="MelBet" icon='✅' href='/melbet' />
+        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="BetWinner" icon='' href='/betwinner' />
+        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="1Win" icon='' href='/1win' />
+        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="1xBet" icon='' href='/' />
+        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="LineBet" icon='' href='/linebet' />
+        <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="MelBet" icon='' href='/melbet' />
       </BottomNavigation>
     </Box>
   );

@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="container mb-5">
                 <footer className="d-flex flex-wrap justify-content-center justify-content-md-between align-items-center py-2 my-5 border-top">
                     <div className="col-md-8 order-md-first order-last">
-                        <span className="mb-3 mb-md-0 fw-bold text-muted">Copyright © {year} CODE PROMO 5511, par <a className="text-warning fw-bold" href="https://www.linkedin.com/in/marc-tatchou-85891a243">Net98</a></span>
+                        <span className="mb-3 mb-md-0 fw-bold text-muted">Copyright © {year} Code Promo 5511, par <a className="text-warning fw-bold" href="https://www.linkedin.com/in/marc-tatchou-85891a243">Net98</a></span>
                     </div>
 
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex order-md-last order-first">
