@@ -10,6 +10,7 @@ import Badge from "../../../components/badge";
 import VideoSection from "../../../components/videoSection";
 import Features from "../../../components/Features";
 import BottomNavBar from "../../../components/bottomNavbar";
+import img from '../../../assets/B5511.jpg'
 
 const HeroSection = styled.section`
     display: flex;
@@ -68,21 +69,21 @@ const BottomMenuSection = styled.div`
 `
 
 export default function Linebet() {
-    document.title = `Linebet | Code Promo 5511`
+    document.title = `Linebet | Code Promo B5511`
 
     return (
         <>
             <NavBar />
             <HeroSection>
-                <Hero page='LineBet' path="https://linebet.com/fr/registration" description="LINEBET possède la licence internationale de Curaçao n° 8048/JAZ. Concluez des paris sur tous les événements dans l'application mobile LINEBET !" />
+                <Hero code="B5511" page='LineBet' path="https://b5511.lineorg.com/" description="LINEBET possède la licence internationale de Curaçao n° 8048/JAZ. Concluez des paris sur tous les événements dans l'application mobile LINEBET !" />
             </HeroSection>
             <Features />
-            <VideoSection video={video} page="LineBet" />
+            <VideoSection code="B5511" video={video} page="LineBet" />
             <CtaSection>
-                <Badge path='https://linebet.com/fr/registration' accroche="👋Toujours pas de compte ? Alors inscrivez-vous en cliquant sur le lien ci-dessous et en utilisant le code promotionnel 5511. Recevez jusqu'à 100$ de bonus pour commencer✊💪" page='LineBet' />
+                <Badge path='https://b5511.lineorg.com/' accroche="👋Toujours pas de compte ? Alors inscrivez-vous en cliquant sur le lien ci-dessous et en utilisant le code promotionnel B5511. Recevez jusqu'à 100$ de bonus pour commencer✊💪" page='LineBet' />
             </CtaSection>
-            <Cta />
-            <Footer />
+            <Cta img={img}/>
+            <Footer code="B5511" />
             <BottomMenuSection>
                 <BottomNavBar />
             </BottomMenuSection>

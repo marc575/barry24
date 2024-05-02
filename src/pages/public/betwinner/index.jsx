@@ -10,6 +10,7 @@ import Badge from "../../../components/badge";
 import VideoSection from "../../../components/videoSection";
 import Features from "../../../components/Features";
 import BottomNavBar from "../../../components/bottomNavbar";
+import img from '../../../assets/BETWINNAT.jpg'
 
 const HeroSection = styled.section`
     display: flex;
@@ -68,21 +69,21 @@ const BottomMenuSection = styled.div`
 `
 
 export default function Betwinner() {
-    document.title = `Betwinner | Code Promo 5511`
+    document.title = `Betwinner | Code Promo BETWINNAT`
 
     return (
         <>
             <NavBar />
             <HeroSection >
-                <Hero page='BetWinner' path="https://bwredir.com/1Vxl?extid=1betwin&s1=Cp" description="Betwinner est un bookmaker de nouvelle génération qui opère depuis 2018. Le site officiel, aux couleurs agréables, dispose d'une interface utilisateur moderne et compréhensible." />
+                <Hero code="BETWINNAT" page='BetWinner' path="https://bwredir.com/1Vxl?extid=1betwin&s1=Cp" description="Betwinner est un bookmaker de nouvelle génération qui opère depuis 2018. Le site officiel, aux couleurs agréables, dispose d'une interface utilisateur moderne et compréhensible." />
             </HeroSection>
             <Features />
-            <VideoSection video={video} page="BetWinner" />
+            <VideoSection code="BETWINNAT" video={video} page="BetWinner" />
             <CtaSection>
-                <Badge path='https://bwredir.com/1Vxl?extid=1betwin&s1=Cp' accroche="👋 Bonjour l'équipe, je vous retrouve pour notre nouveau tutoriel d'inscription qui vous permettra de parier sur BETWINNER et de profiter des meilleures cotes, quel que soit votre pays de résidence. Je vous invite à bien faire attention, car l'inscription ne prend même pas 10 minutes, 10 minutes qui seront très bien investies et rentables à long terme. Le bonus pour les nouveaux membres (jusqu'à 100€), ainsi que l'assistance 24h/24 font de BETWINNER l'un des meilleurs jeunes bookmakers du marché. Utilisez notre code promotionnel 5511 pour recevoir le bonus dès aujourd'hui.✊💪" page='BetWinner' />
+                <Badge path='https://bwredir.com/1Vxl?extid=1betwin&s1=Cp' accroche="👋 Bonjour l'équipe, je vous retrouve pour notre nouveau tutoriel d'inscription qui vous permettra de parier sur BETWINNER et de profiter des meilleures cotes, quel que soit votre pays de résidence. Je vous invite à bien faire attention, car l'inscription ne prend même pas 10 minutes, 10 minutes qui seront très bien investies et rentables à long terme. Le bonus pour les nouveaux membres (jusqu'à 100€), ainsi que l'assistance 24h/24 font de BETWINNER l'un des meilleurs jeunes bookmakers du marché. Utilisez notre code promotionnel BETWINNAT pour recevoir le bonus dès aujourd'hui.✊💪" page='BetWinner' />
             </CtaSection>
-            <Cta />
-            <Footer />
+            <Cta img={img}/>
+            <Footer code="BETWINNAT" />
             <BottomMenuSection>
                 <BottomNavBar />
             </BottomMenuSection>

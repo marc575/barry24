@@ -10,6 +10,7 @@ import Badge from "../../../components/badge";
 import VideoSection from "../../../components/videoSection";
 import Features from "../../../components/Features";
 import BottomNavBar from "../../../components/bottomNavbar";
+import img from '../../../assets/B5511.jpg'
 
 const HeroSection = styled.section`
     display: flex;
@@ -68,21 +69,21 @@ const BottomMenuSection = styled.div`
 `
 
 export default function Win() {
-    document.title = `1win | Code Promo 5511`
+    document.title = `1win | Code Promo B5511`
 
     return (
         <>
             <NavBar />
             <HeroSection>
-                <Hero page='1Win' path="https://1wtsso.life/#o47h" description="1win est un bookmaker assez récent. La société a été fondée en 2016, jusqu'en 2018 c'était FirstBet.1win accepte des joueurs du monde entier, y compris du continent africain, le site est traduit et adapté en 9 langues, dont le français." />
+                <Hero code="B5511" page='1Win' path="https://1wuozz.top/" description="1win est un bookmaker assez récent. La société a été fondée en 2016, jusqu'en 2018 c'était FirstBet.1win accepte des joueurs du monde entier, y compris du continent africain, le site est traduit et adapté en 9 langues, dont le français." />
             </HeroSection>
             <Features />
-            <VideoSection video={video} page="1Win"/>
+            <VideoSection code="B5511" video={video} page="1Win"/>
             <CtaSection>
-                <Badge path='https://1wtsso.life/#o47h' accroche="👋Le site ne propose pas seulement des paris sportifs et des eSports, mais aussi des jeux de casino, de poker, de loterie et de sport virtuel. Cette entreprise en ligne est populaire, notamment grâce à son généreux bonus sur le premier dépôt de 500%. Utilisez notre code promotionnel 5511 officiel pour recevoir ce bonus dès aujourd'hui.✊💪" page='1Win' />
+                <Badge path='https://1wuozz.top/' accroche="👋Le site ne propose pas seulement des paris sportifs et des eSports, mais aussi des jeux de casino, de poker, de loterie et de sport virtuel. Cette entreprise en ligne est populaire, notamment grâce à son généreux bonus sur le premier dépôt de 500%. Utilisez notre code promotionnel B5511 officiel pour recevoir ce bonus dès aujourd'hui.✊💪" page='1Win' />
             </CtaSection>
-            <Cta />
-            <Footer />
+            <Cta img={img} />
+            <Footer code="B5511"/>
             <BottomMenuSection>
                 <BottomNavBar />
             </BottomMenuSection>

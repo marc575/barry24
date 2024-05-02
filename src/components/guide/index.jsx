@@ -25,7 +25,7 @@ const GuideSection = styled.section`
     padding: 1rem 6rem 1rem 6rem;
 
     @media (max-width: 1080px) {
-        padding: 1rem 3rem 1rem 3rem;
+        padding: 1rem 4rem 1rem 4rem;
     }
 
     @media (max-width: 540px) {

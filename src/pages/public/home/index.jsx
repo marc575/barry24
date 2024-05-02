@@ -11,6 +11,7 @@ import image from "../../../assets/xbet.jpg"
 import video from "../../../assets/xbet.mp4"
 import VideoSection from '../../../components/videoSection';
 import BottomNavBar from '../../../components/bottomNavbar';
+import img from '../../../assets/5511.jpg'
 
 const HeroSection = styled.section`
     display: flex;
@@ -76,16 +77,16 @@ function Home() {
     <>
       <NavBar />
       <HeroSection>
-        <Hero page='1xbet'  path="https://refpa4293501.top/L?tag=d_264333m_1599c_&site=264333&ad=1599" description="1xBet est actif sur Internet depuis 2011 et accepte les paris sportifs sur la base d`une licence internationale obtenue sur l`île de Curaçao. C`est le premier bookmaker à avoir proposé une aussi bonne sélection de marchés sportifs et le fameux bonus de 200% pour la première recharge." />
+        <Hero code="5511" page='1xbet'  path="https://refpa4293501.top/L?tag=d_264333m_1599c_&site=264333&ad=1599" description="1xBet est actif sur Internet depuis 2011 et accepte les paris sportifs sur la base d`une licence internationale obtenue sur l`île de Curaçao. C`est le premier bookmaker à avoir proposé une aussi bonne sélection de marchés sportifs et le fameux bonus de 200% pour la première recharge." />
       </HeroSection>
       <Features />
-      <VideoSection video={video} page="1xBet" />
+      <VideoSection code="5511" video={video} page="1xBet" />
       <Guide />
       <CtaSection>
         <Badge path='https://refpa4293501.top/L?tag=d_264333m_1599c_&site=264333&ad=1599' accroche="👋 Les paris sportifs n'ont jamais été aussi pratiques et faciles. Il vous suffit de télécharger l'application 1xBet pour être au cœur du grand jeu ! Pour tous les nouveaux joueurs sur l'application mobile : bonus jusqu'à 65 000 FCFA à l'inscription.  Utilisez notre code promotionnel 5511 officiel pour recevoir le bonus dès aujourd'hui. ✊💪" page='1xBet' />
       </CtaSection>
-      <Cta />
-      <Footer/>
+      <Cta img={img}/>
+      <Footer code="5511" />
       <BottomMenuSection>
         <BottomNavBar />
       </BottomMenuSection>

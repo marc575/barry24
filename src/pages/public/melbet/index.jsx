@@ -10,6 +10,7 @@ import Badge from "../../../components/badge";
 import VideoSection from "../../../components/videoSection";
 import Features from "../../../components/Features";
 import BottomNavBar from "../../../components/bottomNavbar";
+import img from '../../../assets/B5511.jpg'
 
 const HeroSection = styled.section`
     display: flex;
@@ -68,21 +69,21 @@ const BottomMenuSection = styled.div`
 `
 
 export default function Melbet () {
-    document.title = `Melbet | Code Promo 5511`
+    document.title = `Melbet | Code Promo B5511`
 
     return (
         <>
             <NavBar />
             <HeroSection>
-                <Hero page='MelBet' path="https://refpakrtsb.top/L?tag=d_282807m_18639c_&site=282807&ad=18639" description="La société de paris Melbet propose une large offre de paris sportifs en ligne." />
+                <Hero code="B5511" page='MelBet' path="https://bit.ly/3UHxp5a" description="La société de paris Melbet propose une large offre de paris sportifs en ligne." />
             </HeroSection>
             <Features />
-            <VideoSection video={video} page="MelBet" />
+            <VideoSection code="B5511" video={video} page="MelBet" />
             <CtaSection>
-                <Badge path='https://refpakrtsb.top/L?tag=d_282807m_18639c_&site=282807&ad=18639' accroche="👋Son offre de bienvenue de 100% jusqu'à 130 euros est considérable ! Il s'agit d'un bonus exclusif offert avec le code promotionnel ml_170670.✊💪" page='MelBet' />
+                <Badge path='https://bit.ly/3UHxp5a' accroche="👋Son offre de bienvenue de 100% jusqu'à 130 euros est considérable ! Il s'agit d'un bonus exclusif offert avec le code promotionnel B5511.✊💪" page='MelBet' />
             </CtaSection>
-            <Cta />
-            <Footer />
+            <Cta img={img} />
+            <Footer code="B5511" />
             <BottomMenuSection>
                 <BottomNavBar />
             </BottomMenuSection>
