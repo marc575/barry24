@@ -5,8 +5,8 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 export default function BottomNavBar() {
 
   return (
-    <Box sx={{ margin: "0px", width: "100%" }}>
-      <BottomNavigation 
+    <Box sx={{ margin: "0px", width: "100%",  }}>
+      <BottomNavigation
         showLabels
       >
         <BottomNavigationAction sx={{ fontFamily: 'montserrat', fontWeight: 700 }} label="BetWinner" icon='' href='/betwinner' />

@@ -80,7 +80,9 @@ export default function Linebet() {
             <Features />
             <VideoSection code="B5511" video={video} page="LineBet" />
             <CtaSection>
-                <Badge path='https://b5511.lineorg.com/' accroche="👋Toujours pas de compte ? Alors inscrivez-vous en cliquant sur le lien ci-dessous et en utilisant le code promotionnel B5511. Recevez jusqu'à 100$ de bonus pour commencer✊💪" page='LineBet' />
+                <div className="container py-5">
+                    <Badge path='https://b5511.lineorg.com/' accroche="👋Toujours pas de compte ? Alors inscrivez-vous en cliquant sur le lien ci-dessous et en utilisant le code promotionnel B5511. Recevez jusqu'à 100$ de bonus pour commencer✊💪" page='LineBet' />
+                </div>
             </CtaSection>
             <Cta img={img}/>
             <Footer code="B5511" />

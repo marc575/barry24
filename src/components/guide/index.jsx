@@ -1,66 +1,59 @@
-import styled from "styled-components"
-import { xbet } from "../../data/xbet"
-
-const GridSection = styled.section`
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0.5rem;
-
-    @media (max-width: 1080px) {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    @media (max-width: 720px) {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    @media (max-width: 540px) {
-        grid-template-columns: 1fr;
-    }
-`
-
-const GuideSection = styled.section`
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 6rem 1rem 6rem;
-
-    @media (max-width: 1080px) {
-        padding: 1rem 4rem 1rem 4rem;
-    }
-
-    @media (max-width: 540px) {
-        padding: 1rem 0.8rem 1rem 0.8rem;
-    }
-`
+import React, { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import styled from "styled-components";
+import { xbet } from "../../data/xbet";
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+import { Autoplay, FreeMode, Pagination} from 'swiper/modules';
 
 export default function Guide() {
 
     return (
         <>
-            <GuideSection>
-                <div className="px-2">
-                    <div className="mx-auto">
-                        <p className="lead mb-4">👋 Les paris sportifs n`ont jamais été aussi pratiques et faciles. 
-                        Il vous suffit de télécharger l`application 1xBet pour être au cœur du grand jeu ! 
-                        Pour tous les nouveaux joueurs sur l`application mobile : bonus jusqu`à 65 000 FCFA à l`inscription.  
-                        Utilisez notre <strong>Code Promo 5511 </strong> officiel pour recevoir le bonus dès aujourd`hui. 
-                        Suivez le guide d`inscription à 1xbet, qui vous permettra de recevoir tous vos bonus, d`avoir un compte certifié et de profiter des meilleures cotes, quel que soit votre pays de résidence. Je vais vous demander d`être attentif, 10 minutes qui seront très bien investies et rentables à long terme.✊💪</p>
-                    </div>
-                </div>
-                <GridSection>
-                    { xbet.map(({id, cover, title, description}) => 
-                        <div className="col" key={id}>
-                            <div className="card my__card rounded-3">
-                                <img src={cover} className="card-img rounded-3" alt="..." />
-                                <div className="card-body">
-                                    <h5>{title}</h5>
-                                    <p className="card-text">{description}</p>
-                                </div>
+            <div className="container my-5">
+                <Swiper
+                    slidesPerView={1}
+                    spaceBetween={20}
+                    freeMode={true}
+                    loop={true}
+                    breakpoints={{
+                      759: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                      992: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                      },
+                      1200: {
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                      },
+                    }}
+                    autoplay={{
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    modules={[Autoplay, FreeMode, Pagination]}
+                    className="mySwiper"
+                >
+                { xbet.map(({id, cover, title, description}) => 
+                    <SwiperSlide key={id}>
+                        <div className="card rounded-3">
+                            <img src={cover} className="card-img rounded-3" alt={title} />
+                            <div className="card-body">
+                                <h5>{title}</h5>
+                                <p className="card-text">{description}</p>
                             </div>
                         </div>
-                    ) }
-                </GridSection>
-            </GuideSection>
+                    </SwiperSlide>
+                ) }
+                </Swiper>
+            </div>
         </>
     )
 }

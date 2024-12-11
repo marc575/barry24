@@ -80,7 +80,9 @@ export default function Melbet () {
             <Features />
             <VideoSection code="B5511" video={video} page="MelBet" />
             <CtaSection>
-                <Badge path='https://bit.ly/3UHxp5a' accroche="👋Son offre de bienvenue de 100% jusqu'à 130 euros est considérable ! Il s'agit d'un bonus exclusif offert avec le code promotionnel B5511.✊💪" page='MelBet' />
+                <div className="container py-5">
+                    <Badge path='https://bit.ly/3UHxp5a' accroche="👋Son offre de bienvenue de 100% jusqu'à 130 euros est considérable ! Il s'agit d'un bonus exclusif offert avec le code promotionnel B5511.✊💪" page='MelBet' />
+                </div>
             </CtaSection>
             <Cta img={img} />
             <Footer code="B5511" />

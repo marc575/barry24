@@ -80,7 +80,9 @@ export default function Win() {
             <Features />
             <VideoSection code="B5511" video={video} page="1Win"/>
             <CtaSection>
-                <Badge path='https://1wuozz.top/' accroche="👋Le site ne propose pas seulement des paris sportifs et des eSports, mais aussi des jeux de casino, de poker, de loterie et de sport virtuel. Cette entreprise en ligne est populaire, notamment grâce à son généreux bonus sur le premier dépôt de 500%. Utilisez notre code promotionnel B5511 officiel pour recevoir ce bonus dès aujourd'hui.✊💪" page='1Win' />
+                <div className="container py-5">
+                    <Badge path='https://1wuozz.top/' accroche="👋Le site ne propose pas seulement des paris sportifs et des eSports, mais aussi des jeux de casino, de poker, de loterie et de sport virtuel. Cette entreprise en ligne est populaire, notamment grâce à son généreux bonus sur le premier dépôt de 500%. Utilisez notre code promotionnel B5511 officiel pour recevoir ce bonus dès aujourd'hui.✊💪" page='1Win' />
+                </div>
             </CtaSection>
             <Cta img={img} />
             <Footer code="B5511"/>

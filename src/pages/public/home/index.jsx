@@ -40,8 +40,7 @@ export const CtaSection = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem 5rem 1.5rem 5rem;
-    margin: 1.5rem 0rem 1.5rem 0rem;
+    margin: 2rem 0;
     height: auto;
     background-image: linear-gradient(
       to bottom,
@@ -83,7 +82,9 @@ function Home() {
       <VideoSection code="5511" video={video} page="1xBet" />
       <Guide />
       <CtaSection>
-        <Badge path='https://refpa4293501.top/L?tag=d_264333m_1599c_&site=264333&ad=1599' accroche="👋 Les paris sportifs n'ont jamais été aussi pratiques et faciles. Il vous suffit de télécharger l'application 1xBet pour être au cœur du grand jeu ! Pour tous les nouveaux joueurs sur l'application mobile : bonus jusqu'à 65 000 FCFA à l'inscription.  Utilisez notre code promotionnel 5511 officiel pour recevoir le bonus dès aujourd'hui. ✊💪" page='1xBet' />
+        <div className="container py-5">
+          <Badge path='https://refpa4293501.top/L?tag=d_264333m_1599c_&site=264333&ad=1599' accroche="👋 Les paris sportifs n'ont jamais été aussi pratiques et faciles. Il vous suffit de télécharger l'application 1xBet pour être au cœur du grand jeu ! Pour tous les nouveaux joueurs sur l'application mobile : bonus jusqu'à 65 000 FCFA à l'inscription.  Utilisez notre code promotionnel 5511 officiel pour recevoir le bonus dès aujourd'hui. ✊💪" page='1xBet' />
+        </div>
       </CtaSection>
       <Cta img={img}/>
       <Footer code="5511" />
