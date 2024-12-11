@@ -17,7 +17,7 @@ const HeroSection = styled.section`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 4rem 4rem 2rem 4rem;
+    padding: 4rem 0rem;
     background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.2),
@@ -26,11 +26,7 @@ const HeroSection = styled.section`
     background-position: center center;
 
     @media (max-width: 1080px) {
-        padding: 2rem;
-    }
-
-    @media (max-width: 540px) {
-        padding: 2rem 0.8rem 2rem 0.8rem;
+        padding: 2rem 0rem;
     }
 `
 export const CtaSection = styled.section`
@@ -38,8 +34,7 @@ export const CtaSection = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem 5rem 1.5rem 5rem;
-    margin: 1.5rem 0rem 1.5rem 0rem;
+    margin: 2rem 0rem;
     height: auto;
     background-image: linear-gradient(
       to bottom,
@@ -49,11 +44,7 @@ export const CtaSection = styled.section`
     background-position: center center;
 
     @media (max-width: 1080px) {
-    padding: 1.5rem;
-    }
-
-    @media (max-width: 540px) {
-        padding: 2rem 0.8rem 2rem 0.8rem;
+    padding: 2rem 0rem;
     }
 `
 

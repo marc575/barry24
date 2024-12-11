@@ -3,7 +3,7 @@
 function Hero({description, page, path, code}) { 
     return (
         <>
-            <div className="px-2 mt-5 py-5 text-center text-white">
+            <div className="container mt-5 py-5 text-center text-white">
                 <h1 className="display-5 fw-bold">{code}</h1>
                 <div className="mx-auto">
                     <p className="lead mb-4">{description}</p>

@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import styled from "styled-components";
 import { xbet } from "../../data/xbet";
 import 'swiper/css';
 import 'swiper/css/free-mode';

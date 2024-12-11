@@ -18,7 +18,7 @@ const HeroSection = styled.section`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 4rem 4rem 2rem 4rem;
+    padding: 4rem 0rem;
     background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.2),
@@ -27,11 +27,7 @@ const HeroSection = styled.section`
     background-position: center center;
 
     @media (max-width: 1080px) {
-        padding: 2rem;
-    }
-
-    @media (max-width: 540px) {
-        padding: 2rem 0.8rem 2rem 0.8rem;
+        padding: 2rem 0rem;
     }
 `
 
@@ -50,18 +46,14 @@ export const CtaSection = styled.section`
     background-position: center center;
 
     @media (max-width: 1080px) {
-    padding: 1.5rem;
-    }
-
-    @media (max-width: 540px) {
-        padding: 2rem 0.8rem 2rem 0.8rem;
+      padding: 2rem 0;
     }
 `
 
 const BottomMenuSection = styled.div`
     display: none;
 
-    @media (max-width: 540px) {
+    @media (max-width: 749px) {
       display: flex;
       position: fixed;
       bottom: 0;
